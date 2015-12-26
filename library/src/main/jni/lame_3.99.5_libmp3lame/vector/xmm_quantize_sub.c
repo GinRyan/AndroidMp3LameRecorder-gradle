@@ -23,15 +23,12 @@
 #ifdef HAVE_CONFIG_H
 # include <config.h>
 #endif
-
-#include "lame.h"
-#include "machine.h"
-#include "encoder.h"
+#include <../l3side.h>
+#include "../lame.h"
+#include "../machine.h"
+#include "../encoder.h"
 #include "util.h"
 #include "lame_intrin.h"
-
-
-
 #ifdef HAVE_XMMINTRIN_H
 
 #include <xmmintrin.h>
