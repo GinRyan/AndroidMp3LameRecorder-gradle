@@ -20,6 +20,8 @@
  */
 
 #ifndef LAME_L3SIDE_H
+
+#include "encoder.h"
 #define LAME_L3SIDE_H
 
 /* max scalefactor band, max(SBMAX_l, SBMAX_s*3, (SBMAX_s-3)*3+8) */

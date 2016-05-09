@@ -23,7 +23,7 @@
 #ifdef HAVE_CONFIG_H
 # include <config.h>
 #endif
-#include <../l3side.h>
+#include "../l3side.h"
 #include "../lame.h"
 #include "../machine.h"
 #include "../encoder.h"
