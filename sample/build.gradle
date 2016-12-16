@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId = "com.czt.mp3recorder.sample"
         minSdkVersion 11
-        targetSdkVersion 23
+        targetSdkVersion 22
     }
     buildTypes {
         release {

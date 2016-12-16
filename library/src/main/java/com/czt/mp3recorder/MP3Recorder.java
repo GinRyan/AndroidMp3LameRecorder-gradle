@@ -145,7 +145,7 @@ public class MP3Recorder {
 		mAudioRecord = new AudioRecord(DEFAULT_AUDIO_SOURCE,
 				DEFAULT_SAMPLING_RATE, DEFAULT_CHANNEL_CONFIG, DEFAULT_AUDIO_FORMAT.getAudioFormat(),
 				mBufferSize);
-		
+
 		mPCMBuffer = new short[mBufferSize];
 		/*
 		 * Initialize lame buffer
