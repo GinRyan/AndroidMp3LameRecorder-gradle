@@ -7,10 +7,17 @@ android {
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 21
-
+        externalNativeBuild {
+            cmake {
+                cFlags "  -DSTDC_HEADERS"
+                cppFlags " -DSTDC_HEADERS -std=c++11 -frtti -fexceptions "
+                abiFilters "armeabi-v7a","x86"
+            }
+        }
     }
     externalNativeBuild {
         cmake {
+
             path "src/main/jni/CMakeLists.txt"
         }
     }
